@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react';
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
 import News from './modules/news'
@@ -7,9 +6,7 @@ import News from './modules/news'
 function App() {
   return (
     <div className="App">
-      <div className='news'>
         <News />
-      </div>
     </div>
   );
 }
